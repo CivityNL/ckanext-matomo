@@ -1,0 +1,5 @@
+include README.rst
+include LICENSE
+include requirements.txt
+recursive-include ckanext/matomo *.html *.json *.js *.less *.css *.mo *.yml
+recursive-include ckanext/matomo/migration *.ini *.py *.mako
